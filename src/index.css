@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif !important;
+  background-color: #ecf3f7 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar-toggler{
+  padding: 0 !important;
+  border: none !important;
+}
+.navbar-toggler-icon{
+  width: 20px !important;
+}
+
+

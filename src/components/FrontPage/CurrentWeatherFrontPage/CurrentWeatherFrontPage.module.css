@@ -1,0 +1,33 @@
+.CurrentWrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+}
+
+.CurrentText {
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+}
+.CurrentText .CurrentName {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.CurrentText .CurrentTemp {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+.CurrentText .CurrentWeatherText {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ccc;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .CurrentWrapper {
+    margin: 25px auto;
+  }
+}

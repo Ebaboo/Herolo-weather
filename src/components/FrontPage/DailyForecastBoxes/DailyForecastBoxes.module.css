@@ -1,0 +1,13 @@
+.DailyBoxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.DailyBoxes:first-child .Title{
+    color: red;
+}
+
+.Title{
+    font-size: 22px;
+    color: #000;
+}

@@ -1,0 +1,50 @@
+.MainContentWrapper{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: space-between;
+  height: auto;
+  min-height: 650px;
+  padding: 25px 30px;
+  box-shadow: 0 0 15px #ddd;
+}
+.CurrentWeatherWrapper{
+  min-height: 90px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.DailyForecastsWrapper{
+  min-height: 320px;
+  height: auto;
+}
+
+.FavoriteLink:hover{
+  text-decoration: none;
+}
+
+.SwitchButton{
+  background-color: #1693E6 !important;
+  color: #fff !important;
+}
+
+@media(max-width: 767px) {
+  .MainContentWrapper{
+    height: auto;
+  }
+
+  .CurrentWeatherWrapper{
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  
+  .DailyForecastsWrapper{
+    height: auto;
+  }
+
+  .SwitchButtonContainer{
+    margin: 10px auto;
+  }
+}

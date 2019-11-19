@@ -1,0 +1,84 @@
+.FavoriteBox{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgb(223, 223, 223);
+  padding: 10px;
+  background-color: #fff;
+}
+
+.HeartIcon{
+  align-self: flex-end;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.FavoriteInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FavoriteCityName{
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.TempValue{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.FavoriteWeatherText{
+  color: #808fa1;
+  font-weight: 600;
+}
+
+/* Tooltip container */
+.HeartIcon {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.HeartIcon .TooltipText {
+  display: none;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -85px;
+  margin-left: 0;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.HeartIcon .TooltipText::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.HeartIcon:hover .TooltipText {
+  display: block;
+  opacity: 1;
+}

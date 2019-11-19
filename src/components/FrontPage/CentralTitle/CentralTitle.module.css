@@ -1,0 +1,27 @@
+.CentralTitleBox {
+  align-content: center;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.CetralTitle {
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 0 0 15px #525252;
+  color: #fff;
+}
+
+@media(max-width: 767px) {
+  .CetralTitle {
+    font-size: 22px;
+  }
+
+  .CentralTitleBox {
+    min-height: 85px;
+  }
+}

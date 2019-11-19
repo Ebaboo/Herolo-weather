@@ -1,0 +1,33 @@
+.TempValue{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.IconPhrase{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.Icon{
+    padding-top: 15px;
+}
+
+.TopHalf{
+    height: 50%;
+}
+
+.BottomHalf{
+    color: #fff !important;
+    height: 50%;
+    background-color: #49505d;
+}
+.BottomHalf .IconPhrase{
+    color: #fff;
+}
+
+.InsideBox{
+    flex: 1 0 auto;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,27 @@
+.Item{
+  height: 100%;
+  padding: 10px;
+  color: #808fa1;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.Item:hover{
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #1685df;
+}
+
+.Item:hover svg{
+  color: #1685df;
+}
+
+.Item.active{
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #1685df;
+}
+
+.Item.active svg{
+  color: #1685df;
+}
